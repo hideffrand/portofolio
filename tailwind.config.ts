@@ -13,8 +13,7 @@ const config: Config = {
       },
       fontSize: {
         giant: "10rem",
-        mega: "15rem",
-        super: "19rem",
+        super: "15rem",
       },
       fontFamily: {
         poppins: ["Poppins", "sans-serif"],
