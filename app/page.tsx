@@ -28,7 +28,7 @@ const Page = () => {
         Let's Connect!
       </h1>
       <div className="relative pb-32 flex flex-col justify-between items-center">
-        <div className="flex md:gap-16 gap-10">
+        <div className="flex md:gap-16 gap-10 z-10">
           <a href="mailto:hideffrand@gmail.com" className="md:w-20 md:h-20 w-14 h-14 translate-y-12 hover:translate-y-10 hover:cursor-pointer transition-all">
             <Image className="w-full" src="/gmail.svg" height={800} width={800} alt="Gmail" priority />
           </a>
@@ -39,7 +39,7 @@ const Page = () => {
             <Image className="w-full" src="/github.svg" height={800} width={800} alt="Github" priority />
           </a>
         </div>
-        <Image className="absolute bottom-0 -z-10" src="/beam.svg" width={800} height={800} alt="Beams" />
+        <Image className="absolute bottom-0 z-0" src="/beam.svg" width={800} height={800} alt="Beams" />
       </div>
     </>
   );
