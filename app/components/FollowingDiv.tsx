@@ -18,14 +18,6 @@ export default function FollowingDiv() {
   }, []);
 
   return (
-    // <div
-    //   className="inverted-cursor"
-    //   style={{
-    //     top: position.y,
-    //     left: position.x,
-    //     transform: "translate(-50%, -50%)",
-    //   }}
-    // ></div>
     <div
       className="md:block hidden fixed w-40 aspect-square bg-[rgb(200,255,200)] rounded-full"
       style={{

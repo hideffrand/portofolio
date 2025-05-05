@@ -1,9 +1,5 @@
 import Image from "next/image";
 import { projects } from "../data";
-import { gsap } from "gsap";
-import { ScrollTrigger } from "gsap/ScrollTrigger";
-import Icon from "@/components/Icon";
-import { FaGithub } from "react-icons/fa";
 
 
 export default function SelectedWork() {
@@ -13,14 +9,6 @@ export default function SelectedWork() {
 
   function getTop(i: number) {
     return `${(i + 1) * 6}%`;
-  }
-
-  function getRotate(i: number) {
-    if (i % 2 === 0) {
-      return 'rotate-1'
-    } else {
-      return '-rotate-1'
-    }
   }
 
   return (

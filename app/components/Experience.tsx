@@ -1,19 +1,3 @@
-interface IExperience {
-  title: string;
-  mode: string;
-  at: string;
-  desc: string
-}
-
-const experiences: IExperience[] = [
-  {
-    title: "Web Designer",
-    mode: "Part-time",
-    at: "Calvin Institute of Technology",
-    desc: "Resolved frontend issues with Chrome DevTools, designed 9+ promotional landing pages, captured leads using WIX storage, and redesigned calvin.ac.id's homepage for improved UX and UI."
-  }
-]
-
 export default function Experience() {
   return (
     <div className="relative flex flex-col items-center justify-start h-fit">

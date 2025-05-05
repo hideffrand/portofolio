@@ -2,7 +2,6 @@ import ThingsIDo from "./components/ThingsIDo";
 import SelectedWork from "./components/SelectedWork";
 import Hero from "./components/Hero";
 import Experience from "./components/Experience";
-import HidingAnimationDiv from "./components/HidingAnimationDiv";
 import Image from "next/image";
 
 const Page = () => {
