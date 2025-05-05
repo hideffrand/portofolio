@@ -36,7 +36,7 @@ export default function Experience() {
             <p className="text-xs">Jun 2024 - Sep 2024</p>
           </div>
           <p className="text-white">@PT. Indodev Niaga Internet | Internship</p>
-          <p className="text-sm">Delivered 5 customized finance report modules according to client’s requirements on both backend and frontend using ColdFusion, SQL (MariaDB), and React.js</p>
+          <p className="text-sm">Delivered 5 customized finance report modules according to client's requirements on both backend and frontend using ColdFusion, SQL (MariaDB), and React.js</p>
         </div>
       </div>
 
