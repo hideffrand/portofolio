@@ -36,7 +36,7 @@ export default function Experience() {
             <p className="text-xs">Jun 2024 - Sep 2024</p>
           </div>
           <p className="text-white">@PT. Indodev Niaga Internet | Internship</p>
-          <p className="text-sm">Delivered 5 customized finance report modules according to client's requirements on both backend and frontend using ColdFusion, SQL (MariaDB), and React.js</p>
+          <p className="text-sm">Delivered 5 customized finance report modules according to client&apos;s requirements on both backend and frontend using ColdFusion, SQL (MariaDB), and React.js</p>
         </div>
       </div>
 
@@ -47,7 +47,7 @@ export default function Experience() {
             <p className="text-xs">May 2023 - May 2025</p>
           </div>
           <p className="text-white">@Calvin Institute of Technology | Part-time </p>
-          <p className="text-sm">Resolved frontend issues with Chrome DevTools, designed 9+ promotional landing pages, captured leads using WIX storage, and redesigned calvin.ac.id's homepage for improved UX and UI.</p>
+          <p className="text-sm">Resolved frontend issues with Chrome DevTools, designed 9+ promotional landing pages, captured leads using WIX storage, and redesigned calvin.ac.id&apos;s homepage for improved UX and UI.</p>
         </div>
       </div>
     </div>

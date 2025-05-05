@@ -25,7 +25,7 @@ const Page = () => {
       </h1>
       <SelectedWork />
       <h1 className="relative text-center md:text-4xl text-2xl mt-40 mb-24 text-white">
-        Let's Connect!
+        Let&apos;s Connect!
       </h1>
       <div className="relative pb-32 flex flex-col justify-between items-center">
         <div className="flex md:gap-16 gap-10 z-10">
