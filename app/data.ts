@@ -12,7 +12,7 @@ export const projects: ProjectProps[] = [
   {
     id: "signify",
     title: "Signify",
-    img: "/signify.png",
+    img: "/signify.webp",
     type: "UI/UX",
     year: 2024,
     url: "https://www.figma.com/proto/ueRKm0yUs3lxyh05T4RakR/Wireframe?page-id=0%3A1&node-id=654-3920&p=f&viewport=480%2C386%2C0.05&t=DsPof1akFJBtMk6u-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=1%3A3&show-proto-sidebar=1",
@@ -21,7 +21,7 @@ export const projects: ProjectProps[] = [
   {
     id: "kozy",
     title: "Kozy",
-    img: "/kozy.png",
+    img: "/kozy.webp",
     type: "Full Stack Web Development",
     year: 2024,
     url: "https://kozy-one.vercel.app",
@@ -30,7 +30,7 @@ export const projects: ProjectProps[] = [
   {
     id: "tkagape",
     title: "TK Agape",
-    img: "/tkagape.png",
+    img: "/tkagape.webp",
     type: "Full Stack Web Development",
     year: 2024,
     url: "https://tkagape.vercel.app",
@@ -39,7 +39,7 @@ export const projects: ProjectProps[] = [
   {
     id: "gowize",
     title: "Gowize",
-    img: "/gowize.png",
+    img: "/gowize.webp",
     type: "Mobile App Development",
     year: 2024,
     url: "https://www.youtube.com/watch?v=8fVH6FajDVY",
@@ -48,7 +48,7 @@ export const projects: ProjectProps[] = [
   {
     id: "ovo",
     title: "OVO",
-    img: "/ovo.png",
+    img: "/ovo.webp",
     type: "Web Design and Development",
     year: 2023,
     url: "https://ovo-landing.vercel.app",

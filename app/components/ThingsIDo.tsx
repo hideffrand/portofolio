@@ -17,7 +17,7 @@ export default function ThingsIDo() {
               </h3>
               <Image
                 className="absolute bottom-0 right-0 w-[70%]"
-                src="/frontend_thumb.png"
+                src="/frontend_thumb.webp"
                 width={800}
                 height={800}
                 alt="frontend"
@@ -88,7 +88,7 @@ export default function ThingsIDo() {
               </h3>
               <Image
                 className="absolute bottom-0 w-[80%]"
-                src="/backend_thumb.png"
+                src="/backend_thumb.webp"
                 width={800}
                 height={800}
                 alt="backend_thumb"
@@ -102,7 +102,7 @@ export default function ThingsIDo() {
           </h3>
           <Image
             className="absolute bottom-0 w-[200%]"
-            src="/mobile_thumb.png"
+            src="/mobile_thumb.webp"
             width={1200}
             height={1200}
             alt="mobile_thumb"
