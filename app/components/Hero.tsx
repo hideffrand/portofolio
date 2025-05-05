@@ -38,7 +38,7 @@ export default function Hero() {
           <u>Deff</u>rand
         </div>
         <div>Farera</div>
-        <div className="flex-shrink-0 mx-2">
+        {/* <div className="flex-shrink-0 mx-2">
           <Image
             src={"/profile.jpg"}
             alt="profile.jpg"
@@ -46,7 +46,7 @@ export default function Hero() {
             height={2000}
             className="md:w-12 w-8 rounded-[4px]"
           />
-        </div>
+        </div> */}
         <div>,</div>
         <div className="md:hidden block">Aspiring</div>
         <div className="md:hidden block">Software</div>
