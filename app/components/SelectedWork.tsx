@@ -30,6 +30,7 @@ export default function SelectedWork() {
               height={3000}
               className={`md:w-2/3 h-2/3 rounded-md`}
               id={project.title}
+              priority
             />
             <div className="w-full h-2/3 flex flex-col justify-between items-start">
               <div className="w-full flex justify-between">
