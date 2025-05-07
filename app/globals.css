@@ -27,7 +27,7 @@ body {
 
 .base-bg {
   background: linear-gradient(to bottom, transparent, rgb(0, 0, 0)),
-    url("/bg-grid.webp");
+    url("/bg-grid-2.png");
 }
 
 .inverted-cursor {
