@@ -38,6 +38,7 @@ const Page = () => {
             <Image className="w-full" src="/github.svg" height={800} width={800} alt="Github" priority />
           </a>
         </div>
+        <div className="absolute w-60 h-40 bg-gradient-to-t from-[rgb(255,255,255,0.4)] to-transparent bottom-0 blur-2xl rounded-full animate-pulse duration-2000"></div>
         <Image className="absolute bottom-0 z-0" src="/beam.svg" width={800} height={800} alt="Beams" />
       </div>
     </>

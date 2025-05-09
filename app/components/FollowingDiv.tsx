@@ -19,7 +19,7 @@ export default function FollowingDiv() {
 
   return (
     <div
-      className="md:block hidden fixed w-40 aspect-square bg-[rgb(200,255,200)] rounded-full"
+      className="md:block hidden fixed w-40 h-40 aspect-square bg-[rgb(255,255,255,0.8)] rounded-full"
       style={{
         top: position.y,
         left: position.x,
