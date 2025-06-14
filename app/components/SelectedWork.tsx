@@ -1,5 +1,7 @@
 import Image from "next/image";
-import { projects } from "../data";
+import { projects, techTag } from "../data";
+import { FaArrowUpRightFromSquare } from "react-icons/fa6";
+
 
 
 export default function SelectedWork() {
@@ -41,12 +43,17 @@ export default function SelectedWork() {
                   {project.type}
                 </p>
               </div>
-              <div className="w-full flex justify-between font-poppins text-white text-xl border-b pb-2">
+              <div className="w-full flex justify-between font-poppins text-white text-xl border-b border-[rgb(255,255,255,0.5)] pb-2">
                 <p>{i + 1}</p>
-                <p>{project.year}</p>
+                {/* <p>{project.year}</p> */}
+              </div>
+              <div className="pt-4 flex gap-2">
+                {project.stack.map((item, i) => (
+                  <div key={i} className={`w-fit px-4 py-2 text-sm rounded-full ${techTag[item].style}`}>{techTag[item].label}</div>
+                ))}
               </div>
               <a href={project.url} className="text-white font-poppins pt-10 text-end w-full underline">
-                See Details
+                See Details 
               </a>
             </div>
           </div>
