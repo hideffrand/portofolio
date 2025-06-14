@@ -1,3 +1,5 @@
+import clsx from "classnames";
+
 interface ITechTag {
   label: string,
   style: string
@@ -67,7 +69,10 @@ export default function Experience() {
       {experiences.map((exp, i) => (
         <div
           key={i}
-          className={`my-8 md:w-full max-w-[540px] p-8 md:${i % 2 != 0 ? '-' : ''}translate-x-40 bg-[rgb(08,08,08,0.8)] border border-[rgb(200,200,200,0.2)] bg-blur-80 rounded-[10px]`}
+          className={clsx(
+            'my-8 md:w-full max-w-[540px] p-8 bg-[rgb(08,08,08,0.8)] border border-[rgb(200,200,200,0.2)] bg-blur-80 rounded-[10px]',
+            i % 2 === 0 ? 'md:-translate-x-40' : 'md:translate-x-40'
+          )}
         >
           <div className="flex flex-col space-y-2">
             <div className="flex justify-between">
