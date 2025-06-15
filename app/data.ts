@@ -38,7 +38,7 @@ export const projects: ProjectProps[] = [
     year: 2024,
     url: "https://tkagape.vercel.app",
     desc: "",
-    stack: ["next", "ts", "tw"],
+    stack: ["next", "ts", "tw", "firebase"],
   },
   {
     id: "gowize",
@@ -69,6 +69,10 @@ interface ITechTag {
 
 export const techTag: Record<string, ITechTag> = {
   sql: { label: "SQL", style: "bg-[rgb(100,70,0,0.2)] text-[rgb(200,140,0)]" },
+  firebase: {
+    label: "Firebase",
+    style: "bg-[rgb(200,140,0,0.2)] text-[rgb(240,100,0)]",
+  },
   cf: {
     label: "ColdFusion",
     style: "bg-[rgb(0,70,100,0.2)] text-[rgb(0,140,200)]",
@@ -126,7 +130,7 @@ export const experiences: IExperience[] = [
   {
     title: "Implementation Consultant",
     time: "Jun 2025 - Present",
-    at: "@PT. Indodev Niaga Internet",
+    at: "PT. Indodev Niaga Internet",
     type: "Internship",
     desc: "Solved custom payroll modules bugs using ColdFusion and SQL. Utilized Excel to automatically generate bulk SQL statements to fix client's issues on data sites.",
     stack: ["cf", "sql"],
@@ -134,7 +138,7 @@ export const experiences: IExperience[] = [
   {
     title: "Frontend Developer",
     time: "Feb 2025 - May 2025",
-    at: "@PT. Kreasi Untuk Indonesia",
+    at: "PT. Kreasi Untuk Indonesia",
     type: "Internship",
     desc: "Assist in revamping the kuyy.id website for improved SEO performance using NextJS and Help implement websites for clients (Kuyy for Business)",
     stack: ["next", "tw", "ts"],
@@ -142,7 +146,7 @@ export const experiences: IExperience[] = [
   {
     title: "Implementation Consultant",
     time: "Jun 2024 - Sept 2024",
-    at: "@PT. Indodev Niaga Internet",
+    at: "PT. Indodev Niaga Internet",
     type: "Internship",
     desc: "Delivered 5 customized finance report modules according to client's requirements on both backend and frontend using ColdFusion, SQL (MariaDB), and React.js",
     stack: ["react", "cf", "sql"],
@@ -150,7 +154,7 @@ export const experiences: IExperience[] = [
   {
     title: "Web Designer",
     time: "May 2023 - May 2025",
-    at: "@Calvin Institute of Technology",
+    at: "Calvin Institute of Technology",
     type: "Part-time",
     desc: "Resolved frontend issues with Chrome DevTools, designed 9+ promotional landing pages, captured leads using WIX storage, and redesigned calvin.ac.id&apos;s homepage for improved UX and UI.",
     stack: ["figma", "css", "wp", "wix"],

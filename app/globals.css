@@ -6,6 +6,7 @@
   --color: 220, 220, 200;
   --background-color: rgb(0, 0, 0);
   scroll-behavior: smooth;
+  scroll-padding-top: 16vh;
 }
 
 .scroll-container {

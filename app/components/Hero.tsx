@@ -2,7 +2,7 @@ import Greetings from "./Greetings";
 
 export default function Hero() {
   return (
-    <div className="flex flex-col justify-end pb-[20vh] pt-[55vh] md:pt-[35vh]">
+    <div id="home" className="flex flex-col justify-end pb-[20vh] pt-[55vh] md:pt-[35vh]">
       <h1 className="relative md:text-5xl text-3xl pb-1 text-white flex flex-wrap items-center gap-x-2">
         <div className="relative">
           <Greetings />
