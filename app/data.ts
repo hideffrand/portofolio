@@ -156,7 +156,7 @@ export const experiences: IExperience[] = [
     time: "May 2023 - May 2025",
     at: "Calvin Institute of Technology",
     type: "Part-time",
-    desc: "Resolved frontend issues with Chrome DevTools, designed 9+ promotional landing pages, captured leads using WIX storage, and redesigned calvin.ac.id&apos;s homepage for improved UX and UI.",
+    desc: "Resolved frontend issues with Chrome DevTools, designed 9+ promotional landing pages, captured leads using WIX storage, and redesigned calvin.ac.id's homepage for improved UX and UI.",
     stack: ["figma", "css", "wp", "wix"],
   },
 ];
