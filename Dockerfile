@@ -1,33 +1,20 @@
-# 1. Build stage
-FROM node:18-alpine AS builder
+FROM node:18-alpine
 
-# Set working dir
 WORKDIR /app
 
-# Install dependencies (only package.json + lock first for caching)
+# Install dependencies
 COPY package*.json ./
-RUN npm install --frozen-lockfile
+RUN npm install
 
-# Copy all source code
+# Copy source code
 COPY . .
 
 # Build Next.js app
 RUN npm run build
 
-# 2. Production stage
-FROM node:18-alpine AS runner
-
-WORKDIR /app
-
-ENV NODE_ENV=production
-
-# Copy only necessary files from builder
-COPY --from=builder /app/package*.json ./
-COPY --from=builder /app/.next ./.next
-COPY --from=builder /app/public ./public
-COPY --from=builder /app/node_modules ./node_modules
-
-# Next.js runs on port 3000
+# Expose Next.js default port
 EXPOSE 3000
 
+# Start Next.js
 CMD ["npm", "start"]
+  
