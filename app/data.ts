@@ -129,7 +129,7 @@ interface IExperience {
 export const experiences: IExperience[] = [
   {
     title: "Implementation Consultant",
-    time: "Jun 2025 - Present",
+    time: "Jun 2025 - Aug 2025",
     at: "PT. Indodev Niaga Internet",
     type: "Internship",
     desc: "Solved custom payroll modules bugs using ColdFusion and SQL. Utilized Excel to automatically generate bulk SQL statements to fix client's issues on data sites.",
