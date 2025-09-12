@@ -9,11 +9,11 @@ interface ILinks {
 }
 
 const links: ILinks[] = [
-  { href: "#home", label: <FaHouse size={26} /> },
-  { href: "#things-i-do", label: <FaLaptopCode size={30} /> },
-  { href: "#experience", label: <FaBusinessTime size={30} /> },
-  { href: "#works", label: <GoProjectRoadmap size={30} /> },
-  { href: "#contact", label: <IoMdCall size={30} /> },
+  { href: "/#home", label: <FaHouse size={26} /> },
+  { href: "/#things-i-do", label: <FaLaptopCode size={30} /> },
+  { href: "/#experience", label: <FaBusinessTime size={30} /> },
+  { href: "/#works", label: <GoProjectRoadmap size={30} /> },
+  { href: "/#contact", label: <IoMdCall size={30} /> },
 ]
 
 export default function Navbar() {
